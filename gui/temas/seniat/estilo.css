@@ -1,0 +1,475 @@
+/* General page style. The scroll bar colours only visible in IE5.5+ */
+body {
+left:0;
+top:0;
+right:0;
+bottom:0;
+}
+
+/* General font families for common tags */
+font,td,p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#999999;
+	line-height: 20px;	
+	
+	
+}
+a:link,a:active,a:visited { color:#d10409; }
+a:hover		{ color:#a5060a;}
+
+
+table.grid {
+	border: thick solid gray;
+}
+table.grid th {
+	padding: 1px;
+	background-color: #CCCCCC;
+
+	border: 1px;
+}
+table.grid td {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+}
+<!--------------- Scroll ------------------->
+
+div.scroll {
+			border:double;
+			height: 320px;
+			width: 500px;
+			overflow: auto;
+			border: 0px solid #CECFCE;		
+			}
+			
+div.scroll_mediano {
+			border:double;
+			height: 420px;
+			width: 500px;
+			overflow: auto;
+			border: 0px solid #CECFCE;		
+			}
+			
+div.scroll_pequeño {
+			border:double;
+			height: 230px;
+			width: 500px;
+			overflow: auto;
+			border: 0px solid #CECFCE;		
+			}
+
+div.scroll_mediano_corto {
+			border:double;
+			height: auto;
+			width: 500px;
+			overflow: auto;
+			border: 0px solid #CECFCE;		
+			}
+
+<!------------------ Scroll ----------------->			
+			
+input {
+	FONT-SIZE: 0.69em;
+	LINE-HEIGHT: normal;
+	FONT-FAMILY: Tahoma;
+	/*color: #006600;*/
+	COLOR:#333333
+
+}
+
+body {
+
+	}
+	
+
+	
+	
+
+
+/* ID Styles */
+
+#navigation td {
+	/*border-bottom: 1px solid ;
+	border-bottom-color:#F3F3F3;*/
+	}
+	
+#navigation a {
+	text-decoration: none;
+	display:block;
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align:left;
+	background-image: url(../../../gui/temas/seniat/imagenes/punto.gif);
+	background-position: 15px 6px;
+	background-repeat:no-repeat;
+	padding-top: 4px;
+	padding-right: 20px;
+	padding-bottom: 4px;
+	padding-left: 30px;
+	line-height: normal;	
+	}
+	
+#navigation a:hover {
+    color:#a5060a;
+	background-image: url(../../../gui/temas/seniat/imagenes/punto_d.gif);
+	background-position: 17px 6px;
+	background-repeat:no-repeat;
+	
+	}
+	
+#logo 	{
+	font:24px Tahoma;
+	color: #5C743D;
+	letter-spacing:.2em;
+	line-height:30px;
+	}
+
+#tagline 	{	
+	font:11px Tahoma;
+	color: #993300;
+	letter-spacing:.4em;
+	line-height:18px;
+	}
+
+#monthformat {
+	border-bottom: 1px dashed #5C743D;
+	}
+		
+#dateformat {
+	font:11px Tahoma;
+	color: #993300;
+	letter-spacing:.2em;
+	}
+	
+#dateformat a {
+	font:11px Tahoma;
+	color: #993300;
+	
+	letter-spacing:.1em;
+	text-decoration:none;
+	}
+	
+#dateformat a:hover {
+	color: #F4FFE4;
+	letter-spacing:.1em;
+	}
+	
+/* Class Styles */
+	
+.bodyText {
+	color:#666666;
+	}
+	
+.pageName{
+	font: 18px Tahoma;
+	color: pageName/*#99CC66*/;
+	line-height:26px;
+	letter-spacing:.21em;
+	}
+	
+.subHeader {
+	font:11px Tahoma;
+	color: #993300;
+	line-height:22px;
+	letter-spacing:.2em;
+	}
+
+.quote {
+	font: 20px Tahoma;
+	color: #759DA1;
+	line-height:30px;
+	}
+	
+.smallText {
+	font: 10px Tahoma;
+	color: #666666;
+	line-height: 22px;
+	}
+	
+.navText {
+	color: #003366;
+	font-family: Tahoma;
+	font-size: 12px;
+	}
+	
+
+/* test clase de microsoft */
+
+HTML {
+	FONT-SIZE: 100.01%
+}
+.MessageBody P {
+	MARGIN: 0px
+}
+BODY {
+COLOR: #000066; LINE-HEIGHT: normal; FONT-FAMILY: Tahoma
+}
+TEXTAREA {
+	FONT-SIZE: 0.69em; COLOR: #333333; LINE-HEIGHT: normal; FONT-FAMILY: Tahoma
+}
+
+.ApplicationReach TD {
+	FONT-SIZE: 0.69em; COLOR:#026141; LINE-HEIGHT: normal; FONT-FAMILY: Tahoma
+}
+.ApplicationReach TH {
+	FONT-SIZE: 0.69em; COLOR:#026141; LINE-HEIGHT: normal; FONT-FAMILY: Tahoma
+}
+.EditArea {
+	FONT-SIZE: 10pt; LINE-HEIGHT: normal; FONT-FAMILY: Tahoma
+}
+.ExternalClass {
+	FONT-SIZE: 10pt; LINE-HEIGHT: normal; FONT-FAMILY: Tahoma
+}
+
+.PropertyTitle {
+	COLOR: #FF0000
+}
+
+BODY {
+
+	BACKGROUND-COLOR: #ffffff
+}
+SELECT {
+	border: 1px solid gray;
+	color:gray;
+	FONT-SIZE: 1em
+}
+INPUT {
+	border: 1px solid gray;
+	color:gray;
+	FONT-SIZE: 1em
+}
+TEXTAREA {
+	border: 1px solid gray;
+	color:gray;
+	FONT-SIZE: 1em
+}
+
+
+PRE {
+	FONT-SIZE: 1em
+}
+PRE {
+	LINE-HEIGHT: normal; FONT-FAMILY: Tahoma; 
+}
+
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+IMG a:hover {
+CURSOR:pointer;
+/*filter:alpha(opacity=80);  Used for IE opacity */
+-moz-opacity: 0.80; /* used for mozilla opacity */
+opacity: 0.9;/* used i think for opera opacity */
+
+}
+.cSearchBox INPUT {
+	COLOR: black;
+}
+.BoldText{
+	FONT-WEIGHT: bold;
+	color: #333333 ;
+	/*COLOR:#026141;*/
+}
+.BoldTextBlack{
+	FONT-WEIGHT: bold;
+	COLOR: black;
+}
+.BoldTextGray{
+	FONT-WEIGHT: bold;
+	COLOR: gray;
+}
+.BoldTextRojo{
+	FONT-WEIGHT: bold;
+	COLOR: #CC0000;
+}
+.BoldTextVerde{
+	FONT-WEIGHT: bold;
+	COLOR: green;
+}
+.BoldTextRed{
+	FONT-FAMILY: "Britannic Bold"; 
+	FONT-SIZE: 21px;
+	FONT-WEIGHT: 100;
+	COLOR: #CC0000;
+}
+.TableTrans{
+BACKGROUND-color: #000000;
+FONT-WEIGHT: bold;
+FONT-SIZE: 14px;
+COLOR: #ffffff;
+FONT-FAMILY: sans-serif; TEXT-DECORATION: none;
+/* filter: alpha(opacity=40); Used for IE opacity */
+-moz-opacity: 0.40; /* used for mozilla opacity */
+opacity: 0.5 /* used i think for opera opacity */
+}
+
+.TableTransp
+{
+/*filter: alpha(opacity=90);  Used for IE opacity */
+-moz-opacity: 0.90; /* used for mozilla opacity */
+opacity: 0.9 /* used i think for opera opacity */
+}
+
+
+.mensaje_sistema
+{
+	background: #0e3350;
+	border: 1px solid #2571ab;
+	color: #FF0000;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0.6em;
+	width: 90%;
+	margin: 0 50px;
+	text-align: center;
+	left: auto;
+	top: auto;
+	position:absolute;
+}
+
+
+/** Estilo para el grid **/
+#grid{
+			border:none;
+			width: 99%;
+
+}
+#grid TABLE
+{
+
+width: 100%;
+overflow: auto;
+
+}
+
+
+#grid td 
+{
+	white-space:nowrap;
+	border: 1px solid #FFFFFF;
+	
+}
+#grid th 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #ffffff;
+	background-image:url(imagenes/table_header.gif);
+	background-repeat:repeat-x;
+	/*background-color: #AFAFAF;*/
+	font-weight: bold;
+	white-space:nowrap;
+	border: 1px solid #FFFFFF;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#grid tr {
+	height: 25px;
+	font-family :"Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+	background-color:#FFFFFF;
+	font-size : 10pt;
+	color:#999999;
+	
+}
+
+#grid tr.impar {
+	background-color:#EAEAEA;
+	
+}
+#grid tr:hover
+{
+	font-family :"Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+	background-color:#dedbd1;	 
+}
+	
+#grid tr:visited{
+	background: #000066;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#grid tr:active
+	{
+	
+	color: #026141;
+	background-image: url(../../../gui/temas/seniat_besac1/imagenes/top_cnt.gif);
+	background-position: bottom;
+
+	}
+
+	
+#grid a{
+
+	display:block;
+	padding-top: 4px;
+	padding-right: 1px;
+	padding-bottom: 4px;
+	padding-left: 1px;
+	
+	}
+#grid a:hover 
+	{
+	
+	font-family :"Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+	background-color:#6699FF;
+	}
+	
+#grid a:active
+	{
+	
+	font-family :"Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+	/*background-color:	#CEFCA0;*/
+
+	}
+	
+#busqueda
+{
+	position:absolute;
+	top:15px; left:0px;
+	width:100%;
+	height:750px;
+	border:1;
+	background-image:url(../../../imagenes/bg_trans.gif);
+	background-repeat:repeat-x;
+	background-repeat:repeat-y;
+	z-index:UpUp;	
+	
+}
+
+#busqueda .consulta
+{
+	position:absolute;
+	top:140px; left:10px;
+	width:82%;
+	height:auto;
+	background-color:#EAEAEA;
+}
+
+#busqueda .table{
+	border-top-width : 2px solid black;
+	border-right-width : 2px solid black;
+	border-bottom-width : 2px solid black;
+	border-left-width : 2px solid black; 
+}
+
+
+.icn
+{
+	background-image:url(../../../imagenes/icon_bg.gif);
+	background-position:0 0;
+	background-color:white;
+	height:22px;
+	width:22px;
+	overflow:hidden;
+	border:none;
+	font-size:11px;
+	font-weight:normal;
+	color:#000000;
+	text-align:center;
+	margin-left:5px;
+	float:left; 
+}

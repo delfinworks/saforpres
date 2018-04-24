@@ -1,0 +1,12 @@
+.clDescriptionCont {
+	Z-INDEX: 200; POSITION: absolute; WIDTH: 200px; VISIBILITY: hidden; layer-background-color: #cccccc
+}
+.clDescription {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #cccccc; PADDING-LEFT: 3px; WIDTH: 112%; PADDING-RIGHT: 3px; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 11px; OVERFLOW: hidden; BORDER-TOP: #999999 1px solid; TOP: 0px; BORDER-RIGHT: #999999 1px solid; PADDING-TOP: 3px; LEFT: 0px; layer-background-color: #cccccc
+}
+.clLinks {
+	Z-INDEX: 1; POSITION: absolute; TOP: 200px; LEFT: 100px
+}
+.clCaption {
+	CLIP: rect(0px 100% 16px 0px); POSITION: absolute; BACKGROUND-COLOR: #999999; WIDTH: 116%; FONT-FAMILY: verdana,arial,helvetica,sans-serif; HEIGHT: 16px; FONT-SIZE: 11px; TOP: 0px; LEFT: 0px; layer-background-color: #999999
+}

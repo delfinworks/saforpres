@@ -1,0 +1,83 @@
+/************************************
+            By Dan Harper
+        http://www.danharper.me
+
+           For NETTUTS.com
+
+     Check out http://vivawp.com
+************************************/
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+background: #ffffff;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.widget {
+width: 95%;
+padding: 15px;
+background: #f1f1f1;
+border: 1px solid #dedbd1;
+margin-bottom: 15px;
+}
+
+	.widget a {
+	color: #999999;
+	text-decoration: none;
+	}
+	
+	.widget a:hover {
+	color: #999999;
+	text-decoration: underline;
+	}
+
+	.tabnav li {
+	display: inline;
+	list-style: none;
+	padding-right: 5px;
+	}
+	
+		.tabnav li a {
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #222;
+		font-weight: bold;
+		padding: 4px 6px;
+		outline: none;
+		border: 1px solid #dedbd1;
+		}
+		
+		.tabnav li a:hover, .tabnav li a:active, .tabnav li.ui-tabs-selected a {
+		background: #dddddd;
+		color: #222;
+		text-decoration: none;
+		}
+		
+	.tabdiv {
+	margin-top: 2px;
+	background: #fff;
+	border: 1px solid #dedbd1;
+	padding: 5px;
+	}
+	
+		.tabdiv li {
+		list-style-image: url("star.png");
+		margin-left: 20px;
+		color: #222;
+		}
+		
+		.tabdiv p {
+		color: #222;
+		}
+		
+		.rojo {
+		color: #F00;
+		}
+
+.ui-tabs-hide {
+		display: none;
+		}

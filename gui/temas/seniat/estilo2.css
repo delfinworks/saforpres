@@ -1,0 +1,366 @@
+BODY {
+	MARGIN: 0px; FONT-FAMILY: Verdana, Arial; FONT-SIZE: 8pt
+}
+.letras {
+	FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 11px
+}
+.letrasBold {
+	BACKGROUND-COLOR: #d7d7d7; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 10px; FONT-WEIGHT: bold
+}
+.letrasFondoAzul {
+	BACKGROUND-COLOR: #d7d7d7; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 10px
+}
+.letrasNegritas {
+	FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 10px; FONT-WEIGHT: bolder
+}
+.letrasNegritasAzul {
+	FONT-FAMILY: Verdana, Arial; COLOR: #2a1faa; FONT-SIZE: 10px; FONT-WEIGHT: bolder
+}
+.letrasNegritasRojas {
+	FONT-FAMILY: Verdana, Arial; COLOR: #ff0000; FONT-SIZE: 10px; FONT-WEIGHT: bolder
+}
+.letrasLista {
+	FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 10px
+}
+.letrasLista1 {
+	BACKGROUND-COLOR: #efefef; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 10px
+}
+.letrasLista0 {
+	BACKGROUND-COLOR: #dfdfdf; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 10px
+}
+.letrasMini {
+	FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 8px
+}
+.letrasSuperMini {
+	FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 6px
+}
+.inputNumero {
+	TEXT-ALIGN: right; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 11px
+}
+.boton {
+	BACKGROUND-COLOR: #ebebeb; WIDTH: 120px; FONT-FAMILY: Verdana; HEIGHT: 20px; COLOR: #000000; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+.botonOnmouseover {
+	BACKGROUND-COLOR: #d7d7d7; WIDTH: 120px; FONT-FAMILY: Verdana; HEIGHT: 20px; COLOR: #4f4b4a; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+.botonOnmouseout {
+	BACKGROUND-COLOR: #ebebeb; WIDTH: 120px; FONT-FAMILY: Verdana; HEIGHT: 20px; COLOR: #000000; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+.barraPpal {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #d7d7d7; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, Arial; HEIGHT: 20px; COLOR: white; FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.tablaTitulo {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #e32227; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, Arial; HEIGHT: 25px; COLOR: white; FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.tablaSubTitulo {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #a5a5a5; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, Arial; HEIGHT: 25px; COLOR: white; FONT-SIZE: 11px; BORDER-TOP: 0px; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.tablaTitulosItems {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #cdc580; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, Arial; HEIGHT: 25px; COLOR: black; FONT-SIZE: 10px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.etiquetaSombreada {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #efefef; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, Arial; HEIGHT: 25px; COLOR: black; FONT-SIZE: 10px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.enlace A:link {
+	FONT-FAMILY: Verdana, Arial; COLOR: navy; FONT-SIZE: 9px
+}
+.enlace A:visited {
+	FONT-FAMILY: Verdana, Arial; COLOR: #660099; FONT-SIZE: 9px
+}
+.enlace A:hover {
+	FONT-FAMILY: Verdana, Arial; COLOR: red; FONT-SIZE: 9px
+}
+.enlace A:active {
+	FONT-FAMILY: Verdana, Arial; COLOR: blue; FONT-SIZE: 9px
+}
+.enlaceSencillo A:link {
+	FONT-FAMILY: Verdana, Arial; COLOR: navy; FONT-SIZE: 9px; TEXT-DECORATION: none
+}
+.enlaceSencillo A:visited {
+	FONT-FAMILY: Verdana, Arial; COLOR: navy; FONT-SIZE: 9px; TEXT-DECORATION: none
+}
+.enlaceSencillo A:hover {
+	FONT-FAMILY: Verdana, Arial; COLOR: red; FONT-SIZE: 9px; TEXT-DECORATION: none
+}
+.enlaceSencillo A:active {
+	FONT-FAMILY: Verdana, Arial; COLOR: navy; FONT-SIZE: 9px; TEXT-DECORATION: none
+}
+.saltopaj {
+	PAGE-BREAK-BEFORE: always
+}
+.letrasSmall {
+	FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 9pt
+}
+.fondogris {
+	BACKGROUND-COLOR: #e3e3e3; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.fondogrislight {
+	BACKGROUND-COLOR: #efefef; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.fondoGrisClaro {
+	BACKGROUND-COLOR: #efefef; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 10px
+}
+.fondoGrisOscuro {
+	BACKGROUND-COLOR: #dfdfdf; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 10px
+}
+.row1 {
+	BACKGROUND-COLOR: #efefef
+}
+.row0 {
+	BACKGROUND-COLOR: #dfdfdf
+}
+.visible {
+	VISIBILITY: visible
+}
+.novisible {
+	DISPLAY: none
+}
+BODY {
+	MARGIN: 0px; FONT-FAMILY: Verdana, Arial; FONT-SIZE: 8pt
+}
+TD {
+	FONT-FAMILY: Verdana, Arial; FONT-SIZE: 8pt
+}
+.texto {
+	FONT-FAMILY: Verdana; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+.menu {
+	BACKGROUND-COLOR: #e3e3e3; FONT-FAMILY: Verdana; COLOR: #000000; FONT-SIZE: 8pt; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.menuItem {
+	BORDER-BOTTOM: silver 1px inset; BACKGROUND-COLOR: #e3e3e3; FONT-FAMILY: Verdana; COLOR: #cc3333; FONT-WEIGHT: bold
+}
+.menuButtonA {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #cc3333; WIDTH: 150px; FONT-FAMILY: Verdana; COLOR: white; FONT-SIZE: 7pt; CURSOR: hand
+}
+.menuButton {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #cc3333; WIDTH: 150px; FONT-FAMILY: Verdana; COLOR: white; FONT-SIZE: 7pt; CURSOR: hand
+}
+.footLinks {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #cc3333; FONT-FAMILY: Verdana; HEIGHT: 25px; COLOR: #b2bdd2; FONT-SIZE: 8pt
+}
+a1 {
+	TEXT-DECORATION: none
+}
+.centro {
+	TEXT-ALIGN: right
+}
+.a2 {
+	FONT-FAMILY: Verdana; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.celdaTitulo {
+	FONT-FAMILY: Verdana, Arial, Helvetica; COLOR: #000000; FONT-SIZE: 10pt
+}
+.celdaTitulo1 {
+	FONT-FAMILY: Verdana; FONT-SIZE: 10pt
+}
+.celdaTitulo2 {
+	FONT-FAMILY: Verdana; FONT-SIZE: 8pt
+}
+.celdaTitulo3 {
+	FONT-FAMILY: Verdana; COLOR: #cc3333; FONT-SIZE: 8pt
+}
+.celdaTitulo4 {
+	FONT-FAMILY: Verdana; FONT-SIZE: 9pt
+}
+.celdaNormal {
+	FONT-FAMILY: Verdana, Arial, Helvetica; COLOR: #000000; FONT-SIZE: 8pt
+}
+.celdaTitulo5 {
+	FONT-FAMILY: Verdana, Arial, Helvetica; COLOR: #000000; FONT-SIZE: 10pt
+}
+.celdaTitulo6 {
+	FONT-FAMILY: Verdana; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+.celdaTitulo7 {
+	FONT-FAMILY: Verdana; FONT-SIZE: 6pt
+}
+.celdaCuadro {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid
+}
+.valorItem {
+	TEXT-ALIGN: left; FONT-FAMILY: Verdana, Arial; FONT-SIZE: 8pt
+}
+.ItemSubTitulo {
+	FONT-FAMILY: Arial; FONT-SIZE: 8pt; FONT-WEIGHT: bold
+}
+.celdaContenido {
+	FONT-FAMILY: Verdana, Arial, Helvetica; COLOR: #000000; FONT-SIZE: 10pt
+}
+.periodoImposicion {
+	FONT-FAMILY: Verdana, Arial, Helvetica; COLOR: #000000; FONT-SIZE: 12pt; FONT-WEIGHT: bold
+}
+.bordeIzquierdo {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-TOP: #000000 1px solid
+}
+.bordeIzquierdoArriba {
+	BORDER-LEFT: #000000 1px solid; BORDER-TOP: #000000 1px solid
+}
+.bordeDerecho {
+	BORDER-LEFT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid
+}
+.bordeSuperior {
+	BORDER-LEFT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid
+}
+.bordeCuadro {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid
+}
+.bordeIzquierdoAbajo {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid
+}
+.bordeCentroAbajo {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-RIGHT: #000000 1px solid
+}
+.items {
+	TEXT-ALIGN: right
+}
+.itemsDesh {
+	TEXT-ALIGN: right; COLOR: #cccccc
+}
+.mensajes {
+	BORDER-BOTTOM: #003366 1px solid; POSITION: absolute; BORDER-LEFT: #003366 1px solid; BACKGROUND-COLOR: #eeeeee; WIDTH: 200px; HEIGHT: 200px; VISIBILITY: hidden; OVERFLOW: auto; BORDER-TOP: #003366 1px solid; BORDER-RIGHT: #003366 1px solid
+}
+.mensajesGde {
+	BORDER-BOTTOM: #003366 1px solid; POSITION: absolute; BORDER-LEFT: #003366 1px solid; BACKGROUND-COLOR: #eeeeee; WIDTH: 250px; HEIGHT: 250px; VISIBILITY: hidden; OVERFLOW: auto; BORDER-TOP: #003366 1px solid; BORDER-RIGHT: #003366 1px solid
+}
+.Estilo4 {
+	CURSOR: auto; TEXT-DECORATION: none
+}
+.ayudaItem {
+	CURSOR: hand; TEXT-DECORATION: underline
+}
+.tipoMensaje {
+	COLOR: #cdc580; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.valorItemDesh {
+	TEXT-ALIGN: right; FONT-FAMILY: Verdana, Arial; COLOR: #d7d7d7; FONT-SIZE: 8pt
+}
+.textEncabezado {
+	TEXT-ALIGN: left; FONT-FAMILY: Verdana, Arial; FONT-SIZE: 10pt
+}
+.declaracion {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Verdana, Arial; FONT-SIZE: 10pt; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.resultado {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Verdana, Arial; COLOR: #000000; FONT-SIZE: 12pt
+}
+.compromisos1 {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Verdana, Arial; FONT-SIZE: 10pt
+}
+.compromisos0 {
+	BACKGROUND-COLOR: #dfdfdf; FONT-FAMILY: Verdana, Arial; FONT-SIZE: 10pt
+}
+.titCompromisos {
+	BORDER-BOTTOM: #003366 1px solid; BORDER-LEFT: #003366 1px solid; BACKGROUND-COLOR: #cdc580; FONT-FAMILY: Verdana, Arial; COLOR: #000000; FONT-SIZE: 10pt; BORDER-TOP: #003366 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #003366 1px solid
+}
+.textoDec {
+	BACKGROUND-COLOR: #cc3333; FONT-FAMILY: Verdana, Arial; COLOR: #d7d7d7; FONT-SIZE: 11pt; CURSOR: hand; FONT-WEIGHT: 600; TEXT-DECORATION: none
+}
+.row1 {
+	BACKGROUND-COLOR: #ffffff
+}
+.row0 {
+	BACKGROUND-COLOR: #d7d7d7
+}
+.caberaDeclaracionNum {
+	BACKGROUND-COLOR: #d7d7d7; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.caberaDeclaracionBold {
+	BACKGROUND-COLOR: #d7d7d7; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 10px; FONT-WEIGHT: bold
+}
+.caberaDeclaracion {
+	BACKGROUND-COLOR: #d7d7d7; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 10px
+}
+.pieDeclaracion {
+	BACKGROUND-COLOR: #d7d7d7; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #000000; FONT-SIZE: 7px
+}
+.celdaBorde {
+	BORDER-BOTTOM: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-TOP: #666666 1px solid; BORDER-RIGHT: #666666 1px solid
+}
+.celdaAbaDer {
+	BORDER-BOTTOM: #666666 1px solid; BACKGROUND-COLOR: #d7d7d7; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9px; BORDER-RIGHT: #666666 1px solid
+}
+.celdaAbaDerPeq {
+	BORDER-BOTTOM: #666666 1px solid; BACKGROUND-COLOR: #d7d7d7; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 8px; BORDER-RIGHT: #666666 1px solid
+}
+.celdaDer {
+	BACKGROUND-COLOR: #d7d7d7; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9px; BORDER-RIGHT: #666666 1px solid
+}
+.celdaAba {
+	BORDER-BOTTOM: #666666 1px solid; BACKGROUND-COLOR: #d7d7d7; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9px
+}
+.celda {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 9px
+}
+.valorItemImp {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #ffffff; FONT-FAMILY: verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 10px
+}
+.itemsImp {
+	TEXT-ALIGN: right; BACKGROUND-COLOR: #ffffff; FONT-FAMILY: verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 10px
+}
+UNKNOWN {
+	FONT-FAMILY: Verdana; COLOR: black; FONT-SIZE: 8pt
+}
+.letrasBoldA {
+	BACKGROUND-COLOR: #d7d7d7; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 10px; FONT-WEIGHT: bold
+}
+.tablaTituloA {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #a5a5a5; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, Arial; HEIGHT: 25px; COLOR: white; FONT-SIZE: 12px; BORDER-TOP: 0px; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.tablaSubTituloA {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #d7d7d7; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, Arial; HEIGHT: 25px; COLOR: white; FONT-SIZE: 11px; BORDER-TOP: 0px; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.tablaTitulosItemsA {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #e3e3e3; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-FAMILY: Verdana, Arial; HEIGHT: 25px; COLOR: white; FONT-SIZE: 10px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.fondoazullightA {
+	BACKGROUND-COLOR: #e3e3e3; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.footLinksA {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #666666; FONT-FAMILY: Verdana; HEIGHT: 25px; COLOR: #d7d7d7; FONT-SIZE: 8pt
+}
+.letrasFondoAzulA {
+	BACKGROUND-COLOR: #e3e3e3; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 10px
+}
+.menuItemA {
+	BORDER-BOTTOM: silver 1px inset; BACKGROUND-COLOR: #e3e3e3; FONT-FAMILY: Verdana; COLOR: black; FONT-WEIGHT: bold
+}
+.textoDecA {
+	BACKGROUND-COLOR: #cdc580; FONT-FAMILY: Verdana, Arial; COLOR: black; FONT-SIZE: 11pt; CURSOR: hand; FONT-WEIGHT: 600; TEXT-DECORATION: none
+}
+.bordeMenu {
+	BACKGROUND-COLOR: #e32227
+}
+.barraDivision {
+	BACKGROUND-COLOR: #e32227
+}
+.letrasgrisclaro {
+	BACKGROUND-COLOR: #efefef; FONT-FAMILY: Verdana, Arial; HEIGHT: 20px; COLOR: black; FONT-SIZE: 10px
+}
+.body {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Verdana, Arial
+}
+.letrasFecha {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #666666; FONT-SIZE: 9px
+}
+.nombreBarra {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: black; FONT-SIZE: 11px; FONT-WEIGHT: 300
+}
+.tipoBarra {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #666666; FONT-SIZE: 11px
+}
+.barraPpal {
+	BACKGROUND-COLOR: #d7d7d7; HEIGHT: 30px
+}
+.paginadorActual {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #d52122; FONT-SIZE: 10px; FONT-WEIGHT: 700
+}
+.paginador {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #5570a2; FONT-SIZE: 10px; FONT-WEIGHT: 700
+}
+.mensajeExitoso {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #000066; FONT-SIZE: 10px; FONT-WEIGHT: 700
+}
+.mensajeError {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #ff0000; FONT-SIZE: 10px; FONT-WEIGHT: 700
+}
