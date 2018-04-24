@@ -68,6 +68,33 @@ Manejo Stored Procedures
    END$$
 ```
 
+## Configuración :gear:
+
+****************************************************************************************
+Los archivos de configuración de la aplicación se encuentran en el directorio "includes".
+****************************************************************************************
+```bash
+/* Constantes de base de datos "configuracion_db.php" */
+define('DB_TYPE','mysql');//manejador de base de datos
+define('DB_SERVIDOR', '127.0.0.1'); //Dirección IP del servidor de base de datos
+define('DB_SERVIDOR_PUERTO', '3306'); // Puerto de conexión de base de datos
+define('DB_SERVIDOR_USERNAME', 'user'); // Usuario de conexión de base de datos
+define('DB_SERVIDOR_PASSWORD', 'password); // Password de conexión de base de datos
+define('DB_DATABASE', ' saforpre'); //Nombre de la base de datos
+define('DB_CONEXION_P', false);  // Usar conexiones persistentes?
+define('DEBUG_ADODB', false); // Opción para que la Clase ADODB muestre los errores arrojados
+```
+```bash
+/* Constantes de rutas del sistema "configuracion.php" */
+define('DOCUMENT_ROOT',$_SERVER['DOCUMENT_ROOT']);
+define('PATH',$_SERVER['DOCUMENT_ROOT']. '/saforpre''); // 'Coloca aquí la ruta donde se encuentra el sistema a partir del directorio raíz
+```
+
+Montar la base datos db/saforpre.sql
+
+Listo!
+
+
 ## Compatibilidad :triangular_ruler:
 
 Exploradores modernos y IE11.
