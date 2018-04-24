@@ -6,7 +6,10 @@ Todo esta incluido y listo para usar, espero sea de utilidad.
 
 
 ## Vision General :mag:
+Menú principal
 ![](https://raw.githubusercontent.com/delfinworks/Saforpre/master/images/saforpre1.jpg)
+
+Módulo de Carga 
 ![](https://raw.githubusercontent.com/delfinworks/Saforpre/master/images/saforpre2.jpg)
 
 ## Requerimiento :white_check_mark:
@@ -15,10 +18,7 @@ Todo esta incluido y listo para usar, espero sea de utilidad.
 - MySQL 5.1.46
 - phpMyAdmin 3.3.3 
 
-## MVC :gear:
-
-Manejo de las listas
-
+## PHP :eyes:
 ```bash
   function ListProyecto($eje)
 	{				
@@ -43,10 +43,7 @@ Manejo de las listas
 	}
 ```
 
-## PL/SQL :gear:
-
-Manejo Stored Procedures
-
+## PL/SQL :eyes:
 ```bash
   CREATE DEFINER=`root`@`localhost` PROCEDURE `borrar_ai` (`v_id` INT, `v_eje` INT, `v_users` VARCHAR(15), `v_ip` VARCHAR(20))  BEGIN
         DECLARE    v_mensaje varchar(150);
