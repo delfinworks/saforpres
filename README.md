@@ -20,27 +20,20 @@ Módulo de Carga
 
 ## PHP :eyes:
 ```bash
-  function ListProyecto($eje)
-	{				
-		include_once(PATH.'/gui/ObjetoListBox.class.php');
-		$lb = new ListBoxObj();
-		$lb->setquery(	"SELECT 
-					  		safor_pry.id_pry, 
-							safor_pry.descripcion
-						FROM safor_pry 
-						WHERE ((safor_pry.id_eje=".$eje.") AND 
-							   (safor_pry.poa=TRUE))
-						ORDER BY safor_pry.id_pry");
-		$lb->setnombre_listbox('txtpry_id');
-		$lb->setvalor_inicial(array('0',''));
-		$lb->setajax_event('onchange');
-		$lb->setajax_div('prys');
-		$lb->setajax_file_root(PATH."/modulos/formulacion/plan.funciones.php");
-		$lb->setajax_class_name("plan_funciones");
-		$lb->setajax_parametro_function(0);
-		$lb->setajax_function_on_event('Pry_Filtra');
-		$lb->GENERA_LISTBOX(0,'',TRUE);				
-	}
+function ListProyecto($eje){				
+	include_once(PATH.'/gui/ObjetoListBox.class.php');
+	$lb = new ListBoxObj();
+	$lb->setquery("SELECT safor_pry.id_pry, safor_pry.descripcion FROM safor_pry WHERE (safor_pry.id_eje=".$eje.") ORDER BY safor_pry.id_pry");
+	$lb->setnombre_listbox('txtpry_id');
+	$lb->setvalor_inicial(array('0',''));
+	$lb->setajax_event('onchange');
+	$lb->setajax_div('prys');
+	$lb->setajax_file_root(PATH."/modulos/formulacion/plan.funciones.php");
+	$lb->setajax_class_name("plan_funciones");
+	$lb->setajax_parametro_function(0);
+	$lb->setajax_function_on_event('Pry_Filtra');
+	$lb->GENERA_LISTBOX(0,'',TRUE);				
+}
 ```
 
 ## PL/SQL :eyes:
