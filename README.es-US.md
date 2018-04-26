@@ -1,4 +1,4 @@
-# Saforpre
+# Saforpres
 El sistema para el registro de contabilidad presupuestaria, es un proyecto realizado en PHP usando la patrón de arquitectura de software MVC que servirá de base para aquella persona que quiera aprender la metodología. Para el manejo de la información se uso PL/SQL en MySQL para un mejor control de los datos. Se usaron también el  conjunto de bibliotecas ADOdb para brindar mas portabilidad, rapidez y facilidad en las conexiones. El sistema también maneja librerías de Email y de PDF para la generación de reportes.
 
 
@@ -6,8 +6,8 @@ Todo esta incluido y listo para usar, espero sea de utilidad.
 
 
 ## Vision General :mag:
-![](https://raw.githubusercontent.com/delfinworks/Saforpre/master/images/saforpre1.jpg)
-![](https://raw.githubusercontent.com/delfinworks/Saforpre/master/images/saforpre2.jpg)
+![](https://raw.githubusercontent.com/delfinworks/saforpres/master/images/saforpre1.jpg)
+![](https://raw.githubusercontent.com/delfinworks/saforpres/master/images/saforpre2.jpg)
 
 ## Requerimiento :white_check_mark:
 - Web Server Apache-2.2.15
@@ -24,13 +24,7 @@ Manejo de las listas
 	{				
 		include_once(PATH.'/gui/ObjetoListBox.class.php');
 		$lb = new ListBoxObj();
-		$lb->setquery(	"SELECT 
-					  		safor_pry.id_pry, 
-							safor_pry.descripcion
-						FROM safor_pry 
-						WHERE ((safor_pry.id_eje=".$eje.") AND 
-							   (safor_pry.poa=TRUE))
-						ORDER BY safor_pry.id_pry");
+		$lb->setquery(	"SELECT safor_pry.id_pry, safor_pry.descripcionvFROM safor_pry WHERE ((safor_pry.id_eje=".$eje.") AND (safor_pry.poa=TRUE)) ORDER BY safor_pry.id_pry");
 		$lb->setnombre_listbox('txtpry_id');
 		$lb->setvalor_inicial(array('0',''));
 		$lb->setajax_event('onchange');
@@ -57,7 +51,7 @@ Manejo Stored Procedures
                 SET v_mensaje='La accion intermedia se elimino exitosamente. ';
                 SET v_valor=true;
 
-                INSERT INTO seniat_users_log_plan (seniat_users_id, seniat_users_ip, id_ai, accion, id_eje)
+                INSERT INTO users_log_plan (users_id, users_ip, id_ai, accion, id_eje)
                         VALUES (v_users, v_ip, v_id, 'ELIMINACION (AI)', v_eje);
         ELSE
                 SET v_mensaje='La accion intermedia no puede ser eliminada, existen unidades de medida asociados a ella';
