@@ -1,18 +1,19 @@
-# Saforpre
-El sistema para el registro de contabilidad presupuestaria, es un proyecto realizado en PHP usando la patrón de arquitectura de software MVC que servirá de base para aquella persona que quiera aprender la metodología. Para el manejo de la información se uso PL/SQL en MySQL para un mejor control de los datos. Se usaron también el  conjunto de bibliotecas ADOdb para brindar mas portabilidad, rapidez y facilidad en las conexiones. El sistema también maneja librerías de Email y de PDF para la generación de reportes.
+English | [Español](./README.es-US.md)
 
 
-Todo esta incluido y listo para usar, espero sea de utilidad.
+# Saforpres
+System for the budget accounting record, is a project made in PHP using the software architecture pattern MVC. Will serve for that person who wants to learn the methodology. The PL / SQL programming language was used to manage the information in MySQL for better control of the data. The ADOdb library set was also implemented to provide more portability, speed and ease of connections. The system also manages email and PDF libraries for the generation of reports.
 
+Everything is included and ready to use, I hope it will be useful.
 
-## Vision General :mag:
-Menú principal
-![](https://raw.githubusercontent.com/delfinworks/Saforpre/master/images/saforpre1.jpg)
+## Overview :mag:
+Main menu
+![](https://raw.githubusercontent.com/delfinworks/saforpres/master/images/saforpre1.jpg)
 
-Módulo de Carga 
-![](https://raw.githubusercontent.com/delfinworks/Saforpre/master/images/saforpre2.jpg)
+Load Module
+![](https://raw.githubusercontent.com/delfinworks/saforpres/master/images/saforpre2.jpg)
 
-## Requerimiento :white_check_mark:
+## Usage :white_check_mark:
 - Web Server Apache-2.2.15
 - PHP 5.2.13
 - MySQL 5.1.46
@@ -47,10 +48,10 @@ function ListProyecto($eje){
                 SET v_mensaje='La accion intermedia se elimino exitosamente. ';
                 SET v_valor=true;
 
-                INSERT INTO seniat_users_log_plan (seniat_users_id, seniat_users_ip, id_ai, accion, id_eje)
+                INSERT INTO sers_log_plan (users_id, users_ip, id_ai, accion, id_eje)
                         VALUES (v_users, v_ip, v_id, 'ELIMINACION (AI)', v_eje);
         ELSE
-                SET v_mensaje='La accion intermedia no puede ser eliminada, existen unidades de medida asociados a ella';
+                SET v_mensaje='The intermediate action can not be eliminated, there are units of measure associated with it';
                 SET v_valor=false;
         END IF;
         
@@ -58,33 +59,34 @@ function ListProyecto($eje){
    END$$
 ```
 
-## Configuración :gear:
+## Configuration :gear:
 
 ****************************************************************************************
-Los archivos de configuración de la aplicación se encuentran en el directorio "includes".
+The configuration files of the application are in the "includes" directory.
 ****************************************************************************************
 ```bash
-/* Constantes de base de datos "configuracion_db.php" */
-define('DB_TYPE','mysql');//manejador de base de datos
-define('DB_SERVIDOR', '127.0.0.1'); //Dirección IP del servidor de base de datos
-define('DB_SERVIDOR_PUERTO', '3306'); // Puerto de conexión de base de datos
-define('DB_SERVIDOR_USERNAME', 'user'); // Usuario de conexión de base de datos
-define('DB_SERVIDOR_PASSWORD', 'password); // Password de conexión de base de datos
-define('DB_DATABASE', ' saforpre'); //Nombre de la base de datos
-define('DB_CONEXION_P', false);  // Usar conexiones persistentes?
-define('DEBUG_ADODB', false); // Opción para que la Clase ADODB muestre los errores arrojados
+/* Database constants "configuracion_db.php" */
+define('DB_TYPE','mysql'); //Database manager
+define('DB_SERVIDOR', '127.0.0.1'); // IP address of the database server
+define('DB_SERVIDOR_PUERTO', '3306'); // Database connection port
+define('DB_SERVIDOR_USERNAME', 'user'); // Database connection user
+define('DB_SERVIDOR_PASSWORD', 'password); // Database connection password
+define('DB_DATABASE', 'saforpres'); //Database name
+define('DB_CONEXION_P', false);  // Use persistent connections??
+define('DEBUG_ADODB', false); // Option for the ADODB Class to show the errors thrown
 ```
 ```bash
-/* Constantes de rutas del sistema "configuracion.php" */
+/* System routing constants "configuracion.php" */
 define('DOCUMENT_ROOT',$_SERVER['DOCUMENT_ROOT']);
-define('PATH',$_SERVER['DOCUMENT_ROOT']. '/saforpre''); // 'Coloca aquí la ruta donde se encuentra el sistema a partir del directorio raíz
+define('PATH',$_SERVER['DOCUMENT_ROOT']. '/saforpes''); // 'Place the path where the system is located from the root directory
 ```
 
-Montar la base datos db/saforpre.sql
+Mount database db/saforpre.sql
 
-Listo!
+Ready!
 
+## Compatibility :triangular_ruler:
 
-## Compatibilidad :triangular_ruler:
+Modern browsers and IE11.
 
 Exploradores modernos y IE11.
