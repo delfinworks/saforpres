@@ -1,3 +1,6 @@
+[English](./README.md) | Español
+
+
 # Saforpres
 El sistema para el registro de contabilidad presupuestaria, es un proyecto realizado en PHP usando la patrón de arquitectura de software MVC que servirá de base para aquella persona que quiera aprender la metodología. Para el manejo de la información se uso PL/SQL en MySQL para un mejor control de los datos. Se usaron también el  conjunto de bibliotecas ADOdb para brindar mas portabilidad, rapidez y facilidad en las conexiones. El sistema también maneja librerías de Email y de PDF para la generación de reportes.
 
@@ -61,6 +64,9 @@ Manejo Stored Procedures
         SELECT  v_id as id, v_mensaje as mensaje, v_valor as valor;
    END$$
 ```
+Montar la base datos db/sigme.sql
+
+Listo!
 
 ## Compatibilidad :triangular_ruler:
 
