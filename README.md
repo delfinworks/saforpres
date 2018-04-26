@@ -88,5 +88,3 @@ Ready!
 ## Compatibility :triangular_ruler:
 
 Modern browsers and IE11.
-
-Exploradores modernos y IE11.
